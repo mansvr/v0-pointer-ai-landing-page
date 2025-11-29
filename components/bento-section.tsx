@@ -36,33 +36,33 @@ const BentoCard = ({ title, description, Component }) => (
 export function BentoSection() {
   const cards = [
     {
-      title: "AI-powered code reviews.",
-      description: "Get real-time, smart suggestions for cleaner code.",
+      title: "Interactive 3D Models",
+      description: "Breathe vibrancy into your webpage by seamlessly exploring your architectural digital twin.",
       Component: AiCodeReviews,
     },
     {
-      title: "Real-time coding previews",
-      description: "Chat, collaborate, and instantly preview changes together.",
+      title: "Virtual Tours",
+      description: "Immerse visitors in your spaces with engaging virtual tours, showcasing 3D plans and walks.",
       Component: RealtimeCodingPreviews,
     },
     {
-      title: "One-click integrations",
-      description: "Easily connect your workflow with popular dev tools.",
+      title: "Back Panel",
+      description: "Guide your clients seamlessly through the sales funnel via an intuitive back panel.",
       Component: OneClickIntegrationsIllustration,
     },
     {
-      title: "Flexible MCP connectivity",
-      description: "Effortlessly manage and configure MCP server access.",
+      title: "Marketing Content",
+      description: "Create stunning marketing content, featuring a dynamic array of images, videos, and print ads.",
       Component: MCPConnectivityIllustration, // Updated component
     },
     {
-      title: "Launch parallel coding agents", // Swapped position
-      description: "Solve complex problems faster with multiple AI agents.",
+      title: "Kiosk App", // Swapped position
+      description: "Transform your office with our standalone solution for interactive user experiences.",
       Component: ParallelCodingAgents, // Updated component
     },
     {
-      title: "Deployment made easy", // Swapped position
-      description: "Go from code to live deployment on Vercel instantly.",
+      title: "Dynamic PDF", // Swapped position
+      description: "Automatically generate a personalized brochure based on the client's selected unit.",
       Component: EasyDeployment,
     },
   ]
@@ -74,11 +74,10 @@ export function BentoSection() {
         <div className="self-stretch py-8 md:py-14 flex flex-col justify-center items-center gap-2 z-10">
           <div className="flex flex-col justify-start items-center gap-4">
             <h2 className="w-full max-w-[655px] text-center text-foreground text-4xl md:text-6xl font-semibold leading-tight md:leading-[66px]">
-              Empower Your Workflow with AI
+              Comprehensive Real Estate Solutions
             </h2>
             <p className="w-full max-w-[600px] text-center text-muted-foreground text-lg md:text-xl font-medium leading-relaxed">
-              Ask your AI Agent for real-time collaboration, seamless integrations, and actionable insights to
-              streamline your operations.
+              From interactive 3D models to CRM integration, we provide the tools you need to sell properties faster.
             </p>
           </div>
         </div>
